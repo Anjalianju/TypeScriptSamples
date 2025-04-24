@@ -1,8 +1,7 @@
 ﻿///<reference path="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js" />
 ///<reference path="http://connect.facebook.net/en_US/all.js" />
 
-// initialize the library with the API key
-FB.init({ appId: '349900301735115' });
+
 
 // fetch the status on load
 FB.getLoginStatus(handleSessionResponse2);
